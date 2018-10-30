@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shefin.attendancemanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blauncher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/blauncher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".asecActivity"> </activity>
+        <activity android:name=".bsecActivity"> </activity>
+        <activity android:name=".classtypeActivity"> </activity>
+        <activity android:name=".csecActivity"> </activity>
+        <activity android:name=".percentaActivity"></activity>
+        <activity android:name=".percentbActivity"></activity>
+        <activity android:name=".percentcActivity"></activity>
+        <activity android:name=".percenttypeActivity"></activity>
+        <activity android:name=".timeActivity"></activity>
+        <activity android:name=".timelabActivity"></activity>
+        <activity android:name=".typeselectActivity"></activity>
+    </application>
+
+</manifest>
